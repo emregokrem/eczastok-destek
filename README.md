@@ -74,16 +74,23 @@ Karekodu olmayan barkodlu ürünler (dermokozmetik, medikal ürünler vb.) için
 
 Eczane programınızdaki stok ile raftaki fiziki stoğu karşılaştırır.
 
-1. **Sistem** sekmesi: Eczane programınızdan aldığınız karekod listesini **Dosyadan** (xlsx, csv,
+Ekranın üstündeki numaralı adımları sırayla izleyin; alttaki **İleri** / **Geri** düğmeleriyle
+veya adım numarasına dokunarak geçebilirsiniz.
+
+1. **Sistem listesi:** Eczane programınızdan aldığınız karekod listesini **Dosyadan** (xlsx, csv,
    txt) veya **Panodan** içe aktarın.
-2. **Fiziki** sekmesi: **Tara** ile raftaki kutuları okutun veya **Sayımdan al** ile Karekod
-   Sayım listesini aktarın. Taramada sistemde olmayan kutuların üzerinde **SİSTEMDE YOK** yazar.
-3. **Fark** sekmesi:
+2. **Fiziki sayım:** **Tara** ile raftaki kutuları okutun veya **Sayımdan al** ile Karekod Sayım
+   listesini aktarın. Taramada sistemde olmayan kutuların üzerinde **SİSTEMDE YOK** yazar.
+3. **Sonuç:**
    - **Kırmızı – EKSİK:** Sistemde var, rafta yok
    - **Turuncu – FAZLA:** Rafta var, sistemde yok
    - **Yeşil – TAMAM:** İkisinde de var
 
-Fark listesini Excel olarak dışa aktarabilirsiniz (yalnızca farklar veya tüm karşılaştırma).
+   Etiketlere dokunarak listeyi süzebilirsiniz. **Eksikleri kopyala** / **Fazlaları kopyala**
+   düğmeleri ilgili karekodları panoya kopyalar; eczane programınıza doğrudan yapıştırabilirsiniz.
+
+Sağ üstteki paylaş menüsünden eksik veya fazla karekodları **Metin (.txt)** olarak, ya da tüm
+sonucu **Excel** olarak dışa aktarabilirsiniz.
 
 ## Sayım Birleştirme
 
@@ -91,7 +98,9 @@ Farklı zamanlarda veya farklı cihazlarda yapılmış sayım dosyalarını tek 
 
 - **Dosya ekle** ile birden fazla TXT/CSV dosyası seçin; **Uygulamadan** ile cihazdaki mevcut
   sayımları da ekleyebilirsiniz.
-- Karekodlar birleştirilirken **tekrar edenler bir kez sayılır**; kaç tekrarın çıkarıldığı gösterilir.
+- Karekodlar birleştirilirken **tekrar edenler bir kez sayılır**. Tekrar eden karekod varsa
+  "tekrar eden karekod çıkarıldı" satırına dokunarak hangi ilacın hangi dosyalarda tekrar ettiğini
+  görebilirsiniz.
 - Barkod dosyalarındaki **adetler toplanır**.
 - Sonucu birleşik karekod listesi (TXT) ve birleşik barkod listesi (TXT veya Excel) olarak alın.
 
@@ -106,6 +115,7 @@ Drive vb. ile gönderebilir veya kaydedebilirsiniz.
 | Karekod Sayım | `.xlsx` | Barkod, ilaç adı, seri no, parti no, SKT, SKT durumu, fiyat, okunma zamanı |
 | Barkod Sayım | `.txt` | Her barkod adedi kadar alt alta |
 | Barkod Sayım | `.xlsx` | Barkod, ürün adı, adet, birim fiyat |
+| Karşılaştırma | `.txt` | Eksik veya fazla karekodlar, her satırda bir karekod |
 | Karşılaştırma | `.xlsx` | Durum (eksik/fazla/eşleşti), barkod, ilaç adı, seri no, parti no, SKT |
 | Birleştirme | `.txt` / `.xlsx` | Birleşik karekod ve barkod listeleri |
 
