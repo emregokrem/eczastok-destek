@@ -145,8 +145,8 @@ olarak yenilenir.
 - **Zoom:** Küçük karekodlar için **Zoom** düğmesiyle 2x veya 3x yakınlaştırın. Bazı telefonlar
   çok yakına odaklanamaz; kamerayı 15–25 cm uzakta tutup yakınlaştırmak daha iyi sonuç verir.
 - **Odak:** Görüntüde bir noktaya dokunarak oraya odaklayabilirsiniz.
-- **Ters renk (Android):** Bazı kutularda karekod siyah zemin üzerine beyaz basılıdır. Android'de bu
-  kodlar okunmuyorsa kamera ekranındaki **Ters renk** düğmesini açın. Pil tüketimini biraz
+- **Siyah karekod (Android):** Bazı kutularda karekod siyah zemin üzerine beyaz basılıdır. Android'de bu
+  kodlar okunmuyorsa kamera ekranındaki **Siyah Karekod** düğmesini açın. Pil tüketimini biraz
   artırdığı için yalnızca gerektiğinde açmanız önerilir. iPhone/iPad bu kodları ayarsız okur.
 - **Pil tasarrufu:** 60 saniye boyunca hiç kod görülmezse kamera durur; devam etmek için ekrana
   dokunun.
